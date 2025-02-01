@@ -151,13 +151,13 @@ class DateTimeCard extends HTMLElement {
   }
 }
 
-customElements.define('bignumber-card', BigNumberCard);
+customElements.define('datetime-card', DateTimeCard);
 
 // Configure the preview in the Lovelace card picker
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: 'bignumber-card',
-  name: 'Big number card',
+  type: 'datetime-card',
+  name: 'Date Time card',
   preview: false,
-  description: 'A simple card to display big numbers for sensors. It also supports severity levels as background.'
+  description: 'A simple card to display Date and Time.'
 });
