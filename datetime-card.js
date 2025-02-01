@@ -1,4 +1,4 @@
-class BigNumberCard extends HTMLElement {
+class DateTimeCard extends HTMLElement {
   _DEFAULT_STYLE(){return 'var(--label-badge-blue)';}
   _DEFAULT_COLOR(){return 'var(--primary-text-color)';}
   
